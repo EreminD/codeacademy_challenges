@@ -21,3 +21,7 @@
 > Create a primeFinder() function that takes in a number, n, and returns all the prime numbers from 1 to n (inclusive). As a reminder, a prime number is a number that is only divisible by 1 and itself.
 > 
 > For example, primeFinder(11) should return [2, 3, 5, 7, 11].
+5. [Flatten an Array](https://github.com/EreminD/codeacademy_challenges/blob/main/FlattenAnArray.js)
+> Write a function, flattenArray(), that takes in a 2-dimensional array, flattens it into a 1-dimensional array, and returns it. You can assume that you will only be given one or two-dimensional arrays
+> 
+> For example, flattenArray([1, 2, [3, 4, 5], 6, [7, 8], 9]) should return [1, 2, 3, 4, 5, 6, 7, 8, 9].
