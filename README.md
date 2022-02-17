@@ -17,3 +17,7 @@
 > A list of integers will represent the stock price at the beginning or “opening bell” of each day for a week. You are required to buy and sell only once. You also must buy a stock before selling it.
 > 
 > For example, given the list [17, 11, 60, 25, 150, 75, 31, 120], you can assume that index 0 represents day 0 and index 7 represents day 7. In this case, purchasing on day 1 and selling on day 4 would yield the most profit. If we were to call maxProfitDays([17, 11, 60, 25, 150, 75, 31, 120]), the function would return [1, 4].
+4. [Prime Number Finder](https://github.com/EreminD/codeacademy_challenges/blob/main/PrimeNumberFinder.js)
+> Create a primeFinder() function that takes in a number, n, and returns all the prime numbers from 1 to n (inclusive). As a reminder, a prime number is a number that is only divisible by 1 and itself.
+> 
+> For example, primeFinder(11) should return [2, 3, 5, 7, 11].
