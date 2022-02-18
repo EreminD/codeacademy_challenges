@@ -1,16 +1,12 @@
 function fibFinder(n) {
-  let fibo0 = 0, fibo1 = 1
+  return n===0 ? 0 : getFibo(0, 1, n)
+}
 
-  if (n === 0) { return fibo0 }
-  if (n === 1) { return fibo1 }
-
+function getFibo(f0, f1, n){
   for(let i=1; i < n; i++){
-    const temp = fibo1
-    fibo1 += fibo0
-    fibo0 = temp 
+    f0 = [f1, f1+=f0][0] //swap vars
   }
-
-  return fibo1
+  return f1
 }
 
 console.log(fibFinder(6))
