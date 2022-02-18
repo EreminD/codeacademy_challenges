@@ -44,10 +44,13 @@
 > Output: The integer corresponding to the Xth number in the sorted list
 > 
 > Example:
+> 
 > getX(2, [5, 10, -3, -3, 7, 9]) => -3
+> 
 > The second number in order is -3.
 > 
 > getX(4, [5, 10, -3 , -3, 7, 9]) => 7
+> 
 > The fourth number in order is 7.
 > 
 > Note that this assumes the first number is position 1, not 0.
