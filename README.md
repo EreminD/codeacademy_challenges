@@ -62,3 +62,7 @@
 > Write a wordReverser() function that will take a given string and reverse the order of the words. You may assume that the string is a sentence that contains only letters and spaces, with all words separated by one space.
 > 
 > For example, wordReverser("Codecademy rules") should return "rules Codecademy" and wordReverser("May the Fourth be with you") should return "you with be Fourth the May".
+11. [Fibonacci Finder](https://github.com/EreminD/codeacademy_challenges/blob/main/FibonacciFinder.js)
+> Create a fibFinder() function that finds the nth number in the Fibonacci sequence. As a reminder, the Fibonacci sequence is a mathematical sequence that begins with 0 and 1, with each following term being the sum of the two previous terms.
+> 
+> For example, the first two terms of the sequence are represented by fibFinder(0) and fibFinder(1), which return 0 and 1, respectively. fibFinder(6) should return 
