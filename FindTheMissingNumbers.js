@@ -1,4 +1,4 @@
-function missingNos(array, k) {
+function missingNos(array, k) { // why k?
   const length = array[array.length-1]
   const fullArr = [...Array(length+1).keys()].slice(1)
 
