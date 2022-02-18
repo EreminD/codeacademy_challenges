@@ -34,3 +34,22 @@
 > You have a bag containing tiles with numbers [1, 2, 3, …, n] written on them. Each number appears exactly once, so there are n tiles and n numbers. Now, without looking, k number tiles are randomly picked out of the bag and discarded. Create a missingNos() function that takes in a list and k, and returns the missing numbers in ascending order (from smallest to greatest).
 > 
 > For example, missingNos([1, 2, 4, 5, 6, 7, 8, 10], 2) should return [3, 9].
+8. [Get X](https://github.com/EreminD/codeacademy_challenges/blob/main/GetX.js)
+> Write a function, getX, that given an int x and a integer array num, returns the Xth number if the list was in sorted order. In other words, the Xth smallest number.
+> 
+> Function Name: getX
+> 
+> Input: An integer, x, and an unsorted list of integers nums that aren’t necessarily distinct
+> 
+> Output: The integer corresponding to the Xth number in the sorted list
+> 
+> Example:
+> getX(2, [5, 10, -3, -3, 7, 9]) => -3
+> The second number in order is -3.
+> 
+> getX(4, [5, 10, -3 , -3, 7, 9]) => 7
+> The fourth number in order is 7.
+> 
+> Note that this assumes the first number is position 1, not 0.
+
+
